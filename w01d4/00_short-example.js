@@ -2,13 +2,13 @@
 // Compare the following three lines. See how there is a value on 
 // the right hand side of the assignment operator?
 
-const number = 5.5;
-const text = "Hello, World";
-const funct = function(parameter){ process.stdout.write(parameter*2 + " "); };
+const number = 5.5;                 // real number 
+const text = "Hello, World";        // string
+const funct = function(parameter){ process.stdout.write(parameter*2 + " "); }; // FUNCTION
 
-// In the first line above, the value is a real number 
-// In the second line above, the value is a string
-// In the third line above, the value is a FUNCTION
+//  
+//
+//
 
 // PARAMETERS ARE PLACEHOLDERS FOR VALUES NOT KNOWN DURING WRITING
 
