@@ -7,9 +7,9 @@
 - [x] Exporting our code
 - [x] Intro to NPM: a Node package manager
 - [x] Mocha test runner
-- [] Ignoring files/folders
-- [] Chai assertion library
-- [] What is TDD?
+- [x] Ignoring files/folders
+- [x] Chai assertion library
+- [x] What is TDD?
 
 ### `module.exports` and `require`
 - We can export functions, objects, etc from a file using the `module.exports` object

@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha",
+    "monkeyfuzz": "echo \"mf\""
   },
   "keywords": [
     "LHL",
@@ -16,6 +17,7 @@
   "author": "CWN",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.3.7",
     "mocha": "^10.2.0"
   }
 }
