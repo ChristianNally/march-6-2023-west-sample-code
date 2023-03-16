@@ -1,14 +1,64 @@
 # Lecture Notes
 
+
+
+# Internet vs. Web
+
+192.168.x.y  <---- I.P. address
+
+LAN local area network
+WAN wide area network
+
+207.102.221.225    <--->  example.com
+
+207.102.221.225:8765
+207.102.221.225:8766 (port numbers)
+207.102.221.225:8767
+
+Internet is the hardware
+The web is a very VERY specific protocol... where purpose built software exchanges info between server and client.
+
+
+HTTP - hypertext transfer protocol (client server)
+SMTP - send mail transfer protol (client server)
+FTP - file transfer protol
+SFTP - SECURE file 
+
+DNS - domain name system (servers)
+
+# Internet Design
+
+
+
+Seattle    Chicago   Boston
+X----------X--------X
+\           \        \
+ \           \        \
+  \           \        \
+   X-----------X--------X
+San Fran       Dallas    Miami
+
+
+TCP/IP
+
+
+
+
+
+
+
+
+
+
 ## W2D3 - Networking with TCP + HTTP
 
 Welcome to Week 2 Day 3 !!! Today we will be 
 talking about Networking and TCP ( with a touch 
 of HTTP)
 
-[x] TCP breaking a message into parts, each of which pushes
+[] TCP breaking a message into parts, each of which pushes
 its way throughout the network by whatever route it can find.
-[x] HTTP Parts of a URL: protocol, domain, port, path, query, anchor
+[] HTTP Parts of a URL: protocol, domain, port, path, query, anchor
 
 ## Networking
 
