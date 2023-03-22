@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Hub</title>
+</head>
+<body>
+  <p>Welcome back to our Recipe Hub!</p>
+
+  <ul>
+    <% for (let recipe in recipes) { %>
+      <li><a href="/recipes/<%= recipe %>"><%= recipes[recipe].title %></a><a href="/recipes/<%= recipe %>/edit">[✏️]</a><a href="/recipes/<%= recipe %>/delete">[🗑️]</a></li>
+    <% } %>    
+  </ul>
+
+  ➕<a href="/recipes/add">Add a Recipe</a>
+
+</body>
+</html>
